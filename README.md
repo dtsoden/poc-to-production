@@ -4,6 +4,8 @@ Three prompts and one written standard for building apps with an AI coding agent
 
 A vibe-coded app can work and still be a long way from production. I took one of mine from a score of 3.6 out of 10 to 8.8 against this standard, and the story of what that cost is in my LinkedIn article, "I vibe coded an app that works. Making it production-ready cost me twice."
 
+If this saves you a rewrite, star the repository. It's how I know it helped, and it's how the next person finds it before they need it.
+
 ## What's here
 
 | File | Use it when |
