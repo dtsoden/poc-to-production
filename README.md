@@ -2,7 +2,7 @@
 
 Three prompts and one written standard for building apps with an AI coding agent. Use them to build an app right from the first commit, or to audit and fix one that was vibe coded.
 
-A vibe-coded app can work and still be a long way from production. I took one of mine from a score of 3.6 out of 10 to 8.8 against this standard, and the story of what that cost is in my LinkedIn article, "Learn from my vibe-coding bill: production cost me twice."
+A vibe-coded app can work and still be a long way from production. I took one of mine from a score of 3.6 out of 10 to 8.8 against this standard, and the story of what that cost is in my LinkedIn article, [Learn from my vibe-coding bill: production cost me twice](https://www.linkedin.com/pulse/learn-from-my-vibe-coding-bill-production-cost-me-twice-david-soden-wpvse/).
 
 If this saves you a rewrite, star the repository. It's how I know it helped, and it's how the next person finds it before they need it.
 
