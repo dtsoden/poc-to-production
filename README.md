@@ -6,6 +6,31 @@ A vibe-coded app can work and still be a long way from production. I took one of
 
 If this saves you a rewrite, star the repository. It's how I know it helped, and it's how the next person finds it before they need it.
 
+## Install it as a Claude Code plugin
+
+In Claude Code, run:
+
+```
+/plugin install poc-to-production --marketplace dtsoden/poc-to-production
+```
+
+On Claude Code older than 2.1.275, add the marketplace first, then install:
+
+```
+/plugin marketplace add dtsoden/poc-to-production
+/plugin install poc-to-production@dtsoden
+```
+
+Then use it from any repository:
+
+| Command | What it does |
+|---|---|
+| `/poc-to-production:guardrails a CRM for my sales team` | For a new project: writes the build rules into the repository's instructions file, then builds what you described to them. |
+| `/poc-to-production:audit` | For an existing app: scores it against the 191 checks and changes nothing. |
+| `/poc-to-production:fix 8.5` | After the audit: plans the fixes, waits for your approval, then makes them one phase at a time. |
+
+If you use Cursor, Copilot or another agent, copy the prompts from the files below instead. They work in any coding agent that can run commands.
+
 ## What's here
 
 | File | Use it when |

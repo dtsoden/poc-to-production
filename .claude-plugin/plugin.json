@@ -1,0 +1,20 @@
+{
+  "name": "poc-to-production",
+  "version": "1.0.0",
+  "description": "Build apps with an AI coding agent to a written production standard, or audit and fix one that was vibe coded: guardrails, audit and fix, all measured by the same 191 checks.",
+  "author": {
+    "name": "David Soden",
+    "url": "https://github.com/dtsoden"
+  },
+  "homepage": "https://github.com/dtsoden/poc-to-production",
+  "repository": "https://github.com/dtsoden/poc-to-production",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "code-review",
+    "vibe-coding",
+    "owasp-asvs",
+    "production-readiness",
+    "audit"
+  ],
+  "icon": ".claude-plugin/icon.png"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dtsoden",
+  "description": "David Soden's Claude Code plugins.",
+  "owner": {
+    "name": "David Soden",
+    "url": "https://github.com/dtsoden"
+  },
+  "plugins": [
+    {
+      "name": "poc-to-production",
+      "source": "./",
+      "description": "Guardrails, audit and fix for AI-built apps, measured by one 191-check production standard."
+    }
+  ]
+}
