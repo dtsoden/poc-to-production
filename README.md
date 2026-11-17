@@ -103,6 +103,7 @@ The checks are written for a Python or TypeScript back end and a JavaScript or T
 
 AI coding agents can loop: build, review, find something new, rebuild, for weeks. I lost about three weeks to loops like that on the app behind these prompts, so every prompt now has a finish line that can't move:
 
+- Every task and every phase starts with a written definition of done: what will be true and which checks prove it. Without one, "check it again" never ends, because an AI reviewer can always find something.
 - The standard and the target are frozen for the run. Lessons from the run go to a notes file or the backlog and apply to the next run, after you approve them.
 - Done is arithmetic: the scorecard script passes, or the task's tests and gates pass. No reviewer has to come back with zero findings, and AI-written text is fixed in place, never regenerated.
 - Anything found outside the checks goes to a backlog. It doesn't reopen the run unless it's a high-severity security problem.

@@ -50,7 +50,8 @@ How we work
 - A rule that would change what users see or what another system sends becomes a written exception I approve, with a compensating control and a review date. Never change behavior to pass a check without asking.
 - Give every long job (a test suite, a build, a helper agent) a time limit and a visible watch, and tell me what is running. Agents working in parallel work on separate files and merge the main branch before they finish. Full test suites run one at a time.
 
-How a task ends
+How a task starts and ends
+- Before you start any task, write its definition of done in a few lines: what will be true when it's finished, and which tests, gates or checks prove it. Show it to me before you build. The task ends when that is met, and the definition doesn't grow during the task.
 - Build only what the current task asks for. New ideas, refactors, polish and anything a review finds that these rules don't cover go into BACKLOG.md for me to schedule. They never extend the task you're on.
 - These rules don't change during a task. If one turns out to be wrong or missing, write the proposed change in BACKLOG.md under "Proposed rules". It applies from the next task, and only after I approve it.
 - Work on a branch. Iterate with the fast local checks, then run the full suites, the gates and the build once when the task is done, not after every edit.

@@ -64,6 +64,7 @@ Write "[APP NAME] - Remediation Plan [DATE].docx" (or .md) in [OUTPUT FOLDER] co
 There is no new audit until every phase is done. Stop after Part A and wait for approval.
 
 Part B: carrying it out. Only after the plan is approved, and one phase at a time unless the owner says to run a whole track.
+- Start each phase by restating its definition of done: the check ids it closes and the scorecard command that proves them. Nothing else joins the phase once it starts.
 - Before each phase, make a rollback point (a git tag or branch). Keep the restore points the owner names until the plan is finished.
 - Never add anything that spends money (hosted CI, paid services, cloud resources) without asking first. Gates run locally, or on free infrastructure the owner approves.
 - Checks on a live test install must not send email or messages to the owner, to customers or to real companies unless the check is about that email; say so first if it must.
