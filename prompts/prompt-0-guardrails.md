@@ -1,5 +1,7 @@
 # Prompt 0: guardrails for your first prompt
 
+Use this and your app is Born Governed™: its rules exist before line one.
+
 For a new project. Describe what you're building in your own words, the way you normally would, then paste this after it in the same first prompt. The agent writes the rules into the repository's instructions file in the first session, so every later session follows them too.
 
 It's the [standard](../standard/audit-standard.md) written as rules to build by rather than checks to fail. If you want the measurement as well, save the standard in the repository as `docs/audit-standard.md` and ask the agent in the first session to build a scorecard script that measures it, so every session ends with a number.
@@ -47,4 +49,12 @@ How we work
 - A feature is done when it works, its tests pass and every gate passes. Never lower a threshold or record a new baseline to get to green. If a rule seems wrong for a case, stop and ask me.
 - A rule that would change what users see or what another system sends becomes a written exception I approve, with a compensating control and a review date. Never change behavior to pass a check without asking.
 - Give every long job (a test suite, a build, a helper agent) a time limit and a visible watch, and tell me what is running. Agents working in parallel work on separate files and merge the main branch before they finish. Full test suites run one at a time.
+
+How a task ends
+- Build only what the current task asks for. New ideas, refactors, polish and anything a review finds that these rules don't cover go into BACKLOG.md for me to schedule. They never extend the task you're on.
+- These rules don't change during a task. If one turns out to be wrong or missing, write the proposed change in BACKLOG.md under "Proposed rules". It applies from the next task, and only after I approve it.
+- Work on a branch. Iterate with the fast local checks, then run the full suites, the gates and the build once when the task is done, not after every edit.
+- If the same test, gate or check still fails after two fix attempts, stop. Tell me what you tried and the options: a different approach, a written exception, or the backlog. Don't keep trying.
+- Never regenerate a whole document or AI-written output to fix one problem in it. Fix it in place. Names, numbers, dates and prices come from code or data, not from the model's prose. A review of AI-written text doesn't have to reach zero findings: fix what is wrong, and put style polish in the backlog.
+- Call a task done only after reading the full output of every test and gate run. Report everything in one message: what is done, what failed, what went to the backlog. Then stop. Nothing merges to the main branch until I've reviewed it and said yes.
 ```

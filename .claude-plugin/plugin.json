@@ -1,7 +1,7 @@
 {
   "name": "poc-to-production",
-  "version": "1.0.0",
-  "description": "Build apps with an AI coding agent to a written production standard, or audit and fix one that was vibe coded: guardrails, audit and fix, all measured by the same 191 checks.",
+  "version": "1.1.0",
+  "description": "Make apps Born Governed: build with an AI coding agent to a written production standard from the first prompt, or audit and fix one that was vibe coded. Guardrails, audit and fix, all measured by the same 191 checks.",
   "author": {
     "name": "David Soden",
     "url": "https://github.com/dtsoden"
@@ -10,6 +10,8 @@
   "repository": "https://github.com/dtsoden/poc-to-production",
   "license": "CC-BY-4.0",
   "keywords": [
+    "born-governed",
+    "governance-as-code",
     "code-review",
     "vibe-coding",
     "owasp-asvs",

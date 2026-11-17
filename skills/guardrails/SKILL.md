@@ -1,6 +1,6 @@
 ---
 name: guardrails
-description: Set production guardrails for a new project before any code is written. Writes the build rules from the poc-to-production standard into the repository's agent instructions file so every session follows them. Use at the start of a new app or proof of concept.
+description: Make a new app Born Governed. Sets production guardrails before any code is written. Writes the build rules from the poc-to-production standard into the repository's agent instructions file so every session follows them. Use at the start of a new app or proof of concept.
 argument-hint: "[what you're building]"
 disable-model-invocation: true
 ---
@@ -15,4 +15,5 @@ In this first session:
 
 1. Write the rules from the prompt into the repository's agent instructions file. Use CLAUDE.md if the repository has one or has no instructions file yet; use AGENTS.md or CONTRIBUTING.md if that is what the repository already uses. Keep the rules as written. Add one line saying the full measurement is the standard at https://github.com/dtsoden/poc-to-production.
 2. Ask the user whether they also want the measurement: if yes, copy `${CLAUDE_SKILL_DIR}/../../standard/audit-standard.md` to `docs/audit-standard.md` and build a scorecard script that measures it, as Prompt 0's closing paragraph describes.
-3. Then build what the user described, following the rules from the first commit.
+3. Then build what the user described, following the rules from the first commit, and end each task the way the prompt's "How a task ends" section says: one report, then stop for the user's review.
+4. When the first version works, ask the user whether to add the Born Governed badge to the README (the markdown is in the poc-to-production README). Add it only if they say yes.

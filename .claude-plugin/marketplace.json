@@ -9,7 +9,7 @@
     {
       "name": "poc-to-production",
       "source": "./",
-      "description": "Guardrails, audit and fix for AI-built apps, measured by one 191-check production standard."
+      "description": "Born Governed apps: guardrails from the first prompt, plus audit and fix for AI-built apps, measured by one 191-check production standard."
     }
   ]
 }
