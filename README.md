@@ -4,6 +4,8 @@
 
 **Born Governed™: apps whose rules exist before line one.**
 
+The idea, the agent loop it prevents and which parts these prompts cover: [Born Governed™ takes governance as code to the whole app](https://www.linkedin.com/pulse/born-governed-takes-governance-code-whole-app-david-soden-ndpge/).
+
 Three prompts and one written standard for building apps with an AI coding agent. Start a new app with Prompt 0 and it's Born Governed: the standard goes into the repository before the agent writes any code, and every session after that builds to it. That's governance as code from the first prompt, and it's the cheapest way to get an app to production.
 
 If you already have an app that wasn't Born Governed, the same standard audits it and plans the fixes.
